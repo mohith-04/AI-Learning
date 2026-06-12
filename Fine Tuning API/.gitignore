@@ -1,0 +1,45 @@
+# Virtual environment
+bert-env/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Training outputs
+results/
+logs/
+checkpoint-*/
+
+# Fine-tuned model (large files; regenerate with train_sentiment.py)
+movie_sentiment_model/
+
+# Environment and secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face cache
+.cache/
