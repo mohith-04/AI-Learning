@@ -1,0 +1,52 @@
+venv/
+env/
+.venv/
+
+__pycache__/
+*.py[cod]
+*.so
+
+.ipynb_checkpoints/
+
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# Training outputs
+transformer/results/
+results/
+logs/
+checkpoint-*/
+
+# Trained models (regenerate with baseline/train.py and transformer/train.py)
+model/
+
+# Model artifacts
+*.safetensors
+*.pkl
+*.pth
+*.bin
+*.h5
+*.onnx
+
+*.egg-info/
+build/
+dist/
+
+.pytest_cache/
+
+.coverage
+htmlcov/
+
+*.tmp
+temp/
+
+*.log
+
+# Hugging Face cache
+.cache/
