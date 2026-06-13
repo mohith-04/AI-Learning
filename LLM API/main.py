@@ -13,8 +13,6 @@ if not api_key:
     raise ValueError("API key missing!")
 
 # Create OpenAI Client
-
-# Change this line in your script
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=api_key
