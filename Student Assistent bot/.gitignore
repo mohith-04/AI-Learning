@@ -1,0 +1,11 @@
+# Sensitive API keys and credentials
+.env
+
+# Python virtual environment folders
+.venv/
+venv/
+env/
+
+# Python cache files (speeds up execution, but not needed on GitHub)
+__pycache__/
+*.pyc
