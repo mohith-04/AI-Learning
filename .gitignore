@@ -14,6 +14,7 @@ venv/
 .venv/
 env/
 bert-env/
+myenv/
 
 # Environment and secrets
 .env
